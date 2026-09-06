@@ -1,0 +1,35 @@
+{
+  "repository": "https://github.com/philipayates/chicago2022TIF",
+  "commit": "a7dba68a484f49c682a823a023b6ee7f5cf20473",
+  "source_url": "https://github.com/philipayates/chicago2022TIF/blob/a7dba68a484f49c682a823a023b6ee7f5cf20473/TIF_PDF_Parsing/csvs/master_TIF_2023.csv",
+  "source_sha256": "97c58e7f5871a48eabbcef069eb5a162e72cd3d373e1f5a7fc0f55b68530d39d",
+  "retrieved": "2026-09-05",
+  "n_records": 2049,
+  "n_districts": 178,
+  "years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "amounts": "Nominal dollars, no inflation adjustment",
+  "source_values_modified": false,
+  "scope": "Project-parsed data, not an independent audit of all original reports",
+  "python": "3.12.14",
+  "packages": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "matplotlib": "3.11.1",
+    "plotly": "7.0.0"
+  }
+}

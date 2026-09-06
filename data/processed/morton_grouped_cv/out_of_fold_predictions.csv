@@ -1,0 +1,241 @@
+source_row_index,tree_ID,species,fold,observed,predicted,absolute_error,design,model
+0,b. cypress_1,T.distichum,1,749.1406236,694.36230855,54.77831505000006,Shuffled rows,Median baseline
+1,b. cypress_2,T.distichum,8,546.8031527,664.7083904,117.90523769999993,Shuffled rows,Median baseline
+2,b. cypress_3,T.distichum,8,367.7188829,664.7083904,296.9895075,Shuffled rows,Median baseline
+3,b. cypress_4,T.distichum,3,643.9967122,789.0489406500001,145.05222845000003,Shuffled rows,Median baseline
+4,hemlock_1,T.canadensis,4,1776.793149,664.50846815,1112.28468085,Shuffled rows,Median baseline
+5,hemlock_2,T.canadensis,1,526.9616936,694.36230855,167.40061494999998,Shuffled rows,Median baseline
+6,hemlock_3,T.canadensis,3,404.8252493,789.0489406500001,384.2236913500001,Shuffled rows,Median baseline
+7,hemlock_4,T.canadensis,10,933.9854066,664.3085459,269.6768607,Shuffled rows,Median baseline
+8,hemlock_5,T.canadensis,3,724.0162267,789.0489406500001,65.03271395000013,Shuffled rows,Median baseline
+9,hemlock_6,T.canadensis,5,1949.371686,664.50846815,1284.86321785,Shuffled rows,Median baseline
+10,hickory_1,C.ovata,9,1744.871332,664.3085459,1080.5627860999998,Shuffled rows,Median baseline
+11,hickory_3,C.ovata,6,342.506572,664.3085459,321.8019739,Shuffled rows,Median baseline
+12,hickory_4,C.ovata,2,176.0954304,789.0489406500001,612.9535102500001,Shuffled rows,Median baseline
+13,hickory_5,C.ovata,1,187.9259294,694.36230855,506.43637915,Shuffled rows,Median baseline
+14,hickory_6,C.ovata,11,149.1345116,749.1406236,600.006112,Shuffled rows,Median baseline
+15,juniper_1,J.chinensis,5,211.8728845,664.50846815,452.63558365,Shuffled rows,Median baseline
+16,juniper_2,J.chinensis,6,664.7083904,664.3085459,0.39984449999997196,Shuffled rows,Median baseline
+17,juniper_3,J.chinensis,3,192.1609829,789.0489406500001,596.88795775,Shuffled rows,Median baseline
+18,juniper_4,J.chinensis,10,302.2361451,664.3085459,362.0724008,Shuffled rows,Median baseline
+19,juniper_5,J.chinensis,4,1140.904805,664.50846815,476.3963368499999,Shuffled rows,Median baseline
+20,juniper_6,J.chinensis,10,4780.757465,664.3085459,4116.448919099999,Shuffled rows,Median baseline
+21,larch_1,L.gmelinii,8,8383.93922,664.7083904,7719.2308296,Shuffled rows,Median baseline
+22,larch_2,L.gmelinii,10,1285.197669,664.3085459,620.8891230999999,Shuffled rows,Median baseline
+23,larch_3,L.gmelinii,9,1104.762242,664.3085459,440.4536961,Shuffled rows,Median baseline
+24,larch_4,L.gmelinii,6,5623.393062,664.3085459,4959.0845161,Shuffled rows,Median baseline
+25,larch_5,L.gmelinii,5,4171.487318,664.50846815,3506.97884985,Shuffled rows,Median baseline
+26,larch_6,L.gmelinii,6,2373.806313,664.3085459,1709.4977671000001,Shuffled rows,Median baseline
+27,maple_1,A.saccharum,5,83.11979715,664.50846815,581.388671,Shuffled rows,Median baseline
+28,maple_2,A.saccharum,11,378.6153045,749.1406236,370.52531910000005,Shuffled rows,Median baseline
+29,maple_4,A.saccharum,7,469.3986257,749.1406236,279.7419979,Shuffled rows,Median baseline
+30,maple_5,A.saccharum,5,2177.012101,664.50846815,1512.5036328499998,Shuffled rows,Median baseline
+31,maple_6,A.saccharum,3,1418.018523,789.0489406500001,628.9695823499999,Shuffled rows,Median baseline
+32,pawpaw_1,A.triloba,7,224.0891879,749.1406236,525.0514357,Shuffled rows,Median baseline
+33,pawpaw_3,A.triloba,2,156.9467989,789.0489406500001,632.1021417500001,Shuffled rows,Median baseline
+34,pawpaw_5,A.triloba,4,510.4134581,664.50846815,154.09501004999998,Shuffled rows,Median baseline
+35,pawpaw_6,A.triloba,9,1520.099738,664.3085459,855.7911920999999,Shuffled rows,Median baseline
+36,s. cypress_1,C.pisifera,1,828.9572577,694.36230855,134.59494915000005,Shuffled rows,Median baseline
+37,s. cypress_2,C.pisifera,7,344.9492485,749.1406236,404.1913751,Shuffled rows,Median baseline
+38,s. cypress_3,C.pisifera,11,261.6391889,749.1406236,487.5014347,Shuffled rows,Median baseline
+39,s. cypress_4,C.pisifera,9,302.6257719,664.3085459,361.682774,Shuffled rows,Median baseline
+40,s. cypress_5,C.pisifera,4,1893.142743,664.50846815,1228.63427485,Shuffled rows,Median baseline
+41,s. cypress_6,C.pisifera,7,1549.659852,749.1406236,800.5192284,Shuffled rows,Median baseline
+42,s. cypress_7,C.pisifera,11,86.80880934,749.1406236,662.33181426,Shuffled rows,Median baseline
+43,spruce_1,P.abies,4,1760.368102,664.50846815,1095.85963385,Shuffled rows,Median baseline
+44,spruce_2,P.abies,8,2196.343273,664.7083904,1531.6348825999999,Shuffled rows,Median baseline
+45,spruce_3,P.abies,1,1531.789049,694.36230855,837.42674045,Shuffled rows,Median baseline
+46,spruce_4,P.abies,2,664.3085459,789.0489406500001,124.74039475000006,Shuffled rows,Median baseline
+47,spruce_5,P.abies,8,1254.78918,664.7083904,590.0807896,Shuffled rows,Median baseline
+48,spruce_6,P.abies,2,1738.857023,789.0489406500001,949.80808235,Shuffled rows,Median baseline
+49,swo_1,Q.bicolor,9,1337.567471,664.3085459,673.2589251,Shuffled rows,Median baseline
+50,swo_2,Q.bicolor,2,146.160911,789.0489406500001,642.8880296500001,Shuffled rows,Median baseline
+51,swo_5,Q.bicolor,11,1429.538218,749.1406236,680.3975943999999,Shuffled rows,Median baseline
+52,swo_6,Q.bicolor,3,664.1204583,789.0489406500001,124.92848235000008,Shuffled rows,Median baseline
+53,swo_7,Q.bicolor,7,565.8434865,749.1406236,183.2971371,Shuffled rows,Median baseline
+54,swo_8,Q.bicolor,1,255.8660157,694.36230855,438.49629285,Shuffled rows,Median baseline
+55,sycamore_4,P.occidentalis,6,1459.509712,664.3085459,795.2011661,Shuffled rows,Median baseline
+56,sycamore_5,P.occidentalis,5,2530.760054,664.50846815,1866.2515858499999,Shuffled rows,Median baseline
+57,sycamore_6,P.occidentalis,2,571.8889252,789.0489406500001,217.16001545000006,Shuffled rows,Median baseline
+58,sycamore_804,P.occidentalis,4,263.1136997,664.50846815,401.39476845,Shuffled rows,Median baseline
+59,sycamore_811,P.occidentalis,10,1129.311367,664.3085459,465.0028211,Shuffled rows,Median baseline
+0,b. cypress_1,T.distichum,1,749.1406236,1592.5883105759601,843.4476869759601,Shuffled rows,Scaled ridge
+1,b. cypress_2,T.distichum,8,546.8031527,1444.61387135758,897.8107186575799,Shuffled rows,Scaled ridge
+2,b. cypress_3,T.distichum,8,367.7188829,1407.70587541225,1039.98699251225,Shuffled rows,Scaled ridge
+3,b. cypress_4,T.distichum,3,643.9967122,1841.8025596783164,1197.8058474783163,Shuffled rows,Scaled ridge
+4,hemlock_1,T.canadensis,4,1776.793149,1638.506827936001,138.28632106399914,Shuffled rows,Scaled ridge
+5,hemlock_2,T.canadensis,1,526.9616936,1379.7719703178727,852.8102767178727,Shuffled rows,Scaled ridge
+6,hemlock_3,T.canadensis,3,404.8252493,1058.2170195635786,653.3917702635786,Shuffled rows,Scaled ridge
+7,hemlock_4,T.canadensis,10,933.9854066,3217.543126800806,2283.557720200806,Shuffled rows,Scaled ridge
+8,hemlock_5,T.canadensis,3,724.0162267,1065.953060784269,341.936834084269,Shuffled rows,Scaled ridge
+9,hemlock_6,T.canadensis,5,1949.371686,1198.449238724676,750.922447275324,Shuffled rows,Scaled ridge
+10,hickory_1,C.ovata,9,1744.871332,712.5313267173403,1032.3400052826596,Shuffled rows,Scaled ridge
+11,hickory_3,C.ovata,6,342.506572,1612.2091342221968,1269.7025622221968,Shuffled rows,Scaled ridge
+12,hickory_4,C.ovata,2,176.0954304,433.78562637997425,257.69019597997425,Shuffled rows,Scaled ridge
+13,hickory_5,C.ovata,1,187.9259294,677.7260904009573,489.80016100095736,Shuffled rows,Scaled ridge
+14,hickory_6,C.ovata,11,149.1345116,898.7042256994266,749.5697140994266,Shuffled rows,Scaled ridge
+15,juniper_1,J.chinensis,5,211.8728845,1129.5532529024506,917.6803684024505,Shuffled rows,Scaled ridge
+16,juniper_2,J.chinensis,6,664.7083904,844.1689258949411,179.46053549494115,Shuffled rows,Scaled ridge
+17,juniper_3,J.chinensis,3,192.1609829,1571.9523791471213,1379.7913962471214,Shuffled rows,Scaled ridge
+18,juniper_4,J.chinensis,10,302.2361451,1532.5522696948826,1230.3161245948827,Shuffled rows,Scaled ridge
+19,juniper_5,J.chinensis,4,1140.904805,1560.5734156824758,419.6686106824759,Shuffled rows,Scaled ridge
+20,juniper_6,J.chinensis,10,4780.757465,667.5461987261815,4113.211266273818,Shuffled rows,Scaled ridge
+21,larch_1,L.gmelinii,8,8383.93922,1524.1947917595598,6859.74442824044,Shuffled rows,Scaled ridge
+22,larch_2,L.gmelinii,10,1285.197669,2041.889339452335,756.6916704523351,Shuffled rows,Scaled ridge
+23,larch_3,L.gmelinii,9,1104.762242,1445.683816374897,340.9215743748971,Shuffled rows,Scaled ridge
+24,larch_4,L.gmelinii,6,5623.393062,1537.1038022893522,4086.289259710648,Shuffled rows,Scaled ridge
+25,larch_5,L.gmelinii,5,4171.487318,1438.1938961598455,2733.293421840155,Shuffled rows,Scaled ridge
+26,larch_6,L.gmelinii,6,2373.806313,1170.082416708442,1203.723896291558,Shuffled rows,Scaled ridge
+27,maple_1,A.saccharum,5,83.11979715,482.1904779162294,399.0706807662294,Shuffled rows,Scaled ridge
+28,maple_2,A.saccharum,11,378.6153045,797.6904890335702,419.0751845335702,Shuffled rows,Scaled ridge
+29,maple_4,A.saccharum,7,469.3986257,1052.359895679317,582.9612699793171,Shuffled rows,Scaled ridge
+30,maple_5,A.saccharum,5,2177.012101,720.7129561285815,1456.2991448714183,Shuffled rows,Scaled ridge
+31,maple_6,A.saccharum,3,1418.018523,1114.5963592056444,303.4221637943556,Shuffled rows,Scaled ridge
+32,pawpaw_1,A.triloba,7,224.0891879,1303.2123961188,1079.1232082187998,Shuffled rows,Scaled ridge
+33,pawpaw_3,A.triloba,2,156.9467989,1440.3381212075146,1283.3913223075147,Shuffled rows,Scaled ridge
+34,pawpaw_5,A.triloba,4,510.4134581,1093.325147620119,582.9116895201189,Shuffled rows,Scaled ridge
+35,pawpaw_6,A.triloba,9,1520.099738,1249.8613988700965,270.23833912990335,Shuffled rows,Scaled ridge
+36,s. cypress_1,C.pisifera,1,828.9572577,1243.3086966047292,414.3514389047292,Shuffled rows,Scaled ridge
+37,s. cypress_2,C.pisifera,7,344.9492485,1373.5950092166597,1028.6457607166597,Shuffled rows,Scaled ridge
+38,s. cypress_3,C.pisifera,11,261.6391889,1191.6885381518937,930.0493492518937,Shuffled rows,Scaled ridge
+39,s. cypress_4,C.pisifera,9,302.6257719,1045.6345095089864,743.0087376089864,Shuffled rows,Scaled ridge
+40,s. cypress_5,C.pisifera,4,1893.142743,1197.8259174573848,695.3168255426153,Shuffled rows,Scaled ridge
+41,s. cypress_6,C.pisifera,7,1549.659852,714.0574001217158,835.6024518782842,Shuffled rows,Scaled ridge
+42,s. cypress_7,C.pisifera,11,86.80880934,935.9000922447499,849.0912829047498,Shuffled rows,Scaled ridge
+43,spruce_1,P.abies,4,1760.368102,1464.693372635517,295.6747293644828,Shuffled rows,Scaled ridge
+44,spruce_2,P.abies,8,2196.343273,1343.9760967816355,852.3671762183644,Shuffled rows,Scaled ridge
+45,spruce_3,P.abies,1,1531.789049,1337.282902207387,194.50614679261298,Shuffled rows,Scaled ridge
+46,spruce_4,P.abies,2,664.3085459,1323.766049758311,659.457503858311,Shuffled rows,Scaled ridge
+47,spruce_5,P.abies,8,1254.78918,1456.2436067949234,201.4544267949234,Shuffled rows,Scaled ridge
+48,spruce_6,P.abies,2,1738.857023,1506.0416579569844,232.81536504301562,Shuffled rows,Scaled ridge
+49,swo_1,Q.bicolor,9,1337.567471,812.9606404131639,524.6068305868362,Shuffled rows,Scaled ridge
+50,swo_2,Q.bicolor,2,146.160911,534.4255669956858,388.2646559956858,Shuffled rows,Scaled ridge
+51,swo_5,Q.bicolor,11,1429.538218,1162.0616368045075,267.4765811954924,Shuffled rows,Scaled ridge
+52,swo_6,Q.bicolor,3,664.1204583,1344.6789755850552,680.5585172850552,Shuffled rows,Scaled ridge
+53,swo_7,Q.bicolor,7,565.8434865,700.3067414301402,134.46325493014012,Shuffled rows,Scaled ridge
+54,swo_8,Q.bicolor,1,255.8660157,631.9539507384742,376.0879350384742,Shuffled rows,Scaled ridge
+55,sycamore_4,P.occidentalis,6,1459.509712,1385.5991016055125,73.91061039448755,Shuffled rows,Scaled ridge
+56,sycamore_5,P.occidentalis,5,2530.760054,1262.5108861227263,1268.2491678772735,Shuffled rows,Scaled ridge
+57,sycamore_6,P.occidentalis,2,571.8889252,1250.5107605711764,678.6218353711764,Shuffled rows,Scaled ridge
+58,sycamore_804,P.occidentalis,4,263.1136997,1319.0076331925013,1055.8939334925012,Shuffled rows,Scaled ridge
+59,sycamore_811,P.occidentalis,10,1129.311367,733.8226831733504,395.48868382664966,Shuffled rows,Scaled ridge
+0,b. cypress_1,T.distichum,11,749.1406236,776.4867422,27.346118599999954,Held-out species,Median baseline
+1,b. cypress_2,T.distichum,11,546.8031527,776.4867422,229.68358949999993,Held-out species,Median baseline
+2,b. cypress_3,T.distichum,11,367.7188829,776.4867422,408.7678593,Held-out species,Median baseline
+3,b. cypress_4,T.distichum,11,643.9967122,776.4867422,132.49002999999993,Held-out species,Median baseline
+4,hemlock_1,T.canadensis,10,1776.793149,664.50846815,1112.28468085,Held-out species,Median baseline
+5,hemlock_2,T.canadensis,10,526.9616936,664.50846815,137.54677455,Held-out species,Median baseline
+6,hemlock_3,T.canadensis,10,404.8252493,664.50846815,259.68321885,Held-out species,Median baseline
+7,hemlock_4,T.canadensis,10,933.9854066,664.50846815,269.47693845000003,Held-out species,Median baseline
+8,hemlock_5,T.canadensis,10,724.0162267,664.50846815,59.50775854999995,Held-out species,Median baseline
+9,hemlock_6,T.canadensis,10,1949.371686,664.50846815,1284.86321785,Held-out species,Median baseline
+10,hickory_1,C.ovata,3,1744.871332,749.1406236,995.7307083999999,Held-out species,Median baseline
+11,hickory_3,C.ovata,3,342.506572,749.1406236,406.6340516,Held-out species,Median baseline
+12,hickory_4,C.ovata,3,176.0954304,749.1406236,573.0451932000001,Held-out species,Median baseline
+13,hickory_5,C.ovata,3,187.9259294,749.1406236,561.2146942,Held-out species,Median baseline
+14,hickory_6,C.ovata,3,149.1345116,749.1406236,600.006112,Held-out species,Median baseline
+15,juniper_1,J.chinensis,5,211.8728845,736.5784251499999,524.7055406499999,Held-out species,Median baseline
+16,juniper_2,J.chinensis,5,664.7083904,736.5784251499999,71.87003474999995,Held-out species,Median baseline
+17,juniper_3,J.chinensis,5,192.1609829,736.5784251499999,544.4174422499999,Held-out species,Median baseline
+18,juniper_4,J.chinensis,5,302.2361451,736.5784251499999,434.34228004999994,Held-out species,Median baseline
+19,juniper_5,J.chinensis,5,1140.904805,736.5784251499999,404.32637984999997,Held-out species,Median baseline
+20,juniper_6,J.chinensis,5,4780.757465,736.5784251499999,4044.1790398499998,Held-out species,Median baseline
+21,larch_1,L.gmelinii,6,8383.93922,654.0585852500001,7729.88063475,Held-out species,Median baseline
+22,larch_2,L.gmelinii,6,1285.197669,654.0585852500001,631.1390837499998,Held-out species,Median baseline
+23,larch_3,L.gmelinii,6,1104.762242,654.0585852500001,450.70365674999994,Held-out species,Median baseline
+24,larch_4,L.gmelinii,6,5623.393062,654.0585852500001,4969.33447675,Held-out species,Median baseline
+25,larch_5,L.gmelinii,6,4171.487318,654.0585852500001,3517.4287327500006,Held-out species,Median baseline
+26,larch_6,L.gmelinii,6,2373.806313,654.0585852500001,1719.74772775,Held-out species,Median baseline
+27,maple_1,A.saccharum,1,83.11979715,724.0162267,640.89642955,Held-out species,Median baseline
+28,maple_2,A.saccharum,1,378.6153045,724.0162267,345.40092219999997,Held-out species,Median baseline
+29,maple_4,A.saccharum,1,469.3986257,724.0162267,254.61760099999992,Held-out species,Median baseline
+30,maple_5,A.saccharum,1,2177.012101,724.0162267,1452.9958742999997,Held-out species,Median baseline
+31,maple_6,A.saccharum,1,1418.018523,724.0162267,694.0022963,Held-out species,Median baseline
+32,pawpaw_1,A.triloba,2,224.0891879,736.5784251499999,512.4892372499999,Held-out species,Median baseline
+33,pawpaw_3,A.triloba,2,156.9467989,736.5784251499999,579.63162625,Held-out species,Median baseline
+34,pawpaw_5,A.triloba,2,510.4134581,736.5784251499999,226.16496704999992,Held-out species,Median baseline
+35,pawpaw_6,A.triloba,2,1520.099738,736.5784251499999,783.52131285,Held-out species,Median baseline
+36,s. cypress_1,C.pisifera,4,828.9572577,724.0162267,104.94103100000007,Held-out species,Median baseline
+37,s. cypress_2,C.pisifera,4,344.9492485,724.0162267,379.06697819999994,Held-out species,Median baseline
+38,s. cypress_3,C.pisifera,4,261.6391889,724.0162267,462.3770377999999,Held-out species,Median baseline
+39,s. cypress_4,C.pisifera,4,302.6257719,724.0162267,421.39045479999993,Held-out species,Median baseline
+40,s. cypress_5,C.pisifera,4,1893.142743,724.0162267,1169.1265163000003,Held-out species,Median baseline
+41,s. cypress_6,C.pisifera,4,1549.659852,724.0162267,825.6436253,Held-out species,Median baseline
+42,s. cypress_7,C.pisifera,4,86.80880934,724.0162267,637.2074173599999,Held-out species,Median baseline
+43,spruce_1,P.abies,7,1760.368102,654.0585852500001,1106.3095167499998,Held-out species,Median baseline
+44,spruce_2,P.abies,7,2196.343273,654.0585852500001,1542.2846877499999,Held-out species,Median baseline
+45,spruce_3,P.abies,7,1531.789049,654.0585852500001,877.7304637499999,Held-out species,Median baseline
+46,spruce_4,P.abies,7,664.3085459,654.0585852500001,10.249960649999935,Held-out species,Median baseline
+47,spruce_5,P.abies,7,1254.78918,654.0585852500001,600.7305947499999,Held-out species,Median baseline
+48,spruce_6,P.abies,7,1738.857023,654.0585852500001,1084.79843775,Held-out species,Median baseline
+49,swo_1,Q.bicolor,9,1337.567471,736.5784251499999,600.9890458500001,Held-out species,Median baseline
+50,swo_2,Q.bicolor,9,146.160911,736.5784251499999,590.41751415,Held-out species,Median baseline
+51,swo_5,Q.bicolor,9,1429.538218,736.5784251499999,692.95979285,Held-out species,Median baseline
+52,swo_6,Q.bicolor,9,664.1204583,736.5784251499999,72.45796684999993,Held-out species,Median baseline
+53,swo_7,Q.bicolor,9,565.8434865,736.5784251499999,170.7349386499999,Held-out species,Median baseline
+54,swo_8,Q.bicolor,9,255.8660157,736.5784251499999,480.71240944999994,Held-out species,Median baseline
+55,sycamore_4,P.occidentalis,8,1459.509712,664.7083904,794.8013216,Held-out species,Median baseline
+56,sycamore_5,P.occidentalis,8,2530.760054,664.7083904,1866.0516635999998,Held-out species,Median baseline
+57,sycamore_6,P.occidentalis,8,571.8889252,664.7083904,92.81946519999997,Held-out species,Median baseline
+58,sycamore_804,P.occidentalis,8,263.1136997,664.7083904,401.5946907,Held-out species,Median baseline
+59,sycamore_811,P.occidentalis,8,1129.311367,664.7083904,464.60297660000003,Held-out species,Median baseline
+0,b. cypress_1,T.distichum,11,749.1406236,2019.0729039055886,1269.9322803055886,Held-out species,Scaled ridge
+1,b. cypress_2,T.distichum,11,546.8031527,2014.0702984717839,1467.2671457717838,Held-out species,Scaled ridge
+2,b. cypress_3,T.distichum,11,367.7188829,1904.3203797810652,1536.6014968810653,Held-out species,Scaled ridge
+3,b. cypress_4,T.distichum,11,643.9967122,2135.9931285550065,1491.9964163550064,Held-out species,Scaled ridge
+4,hemlock_1,T.canadensis,10,1776.793149,1758.8634922130757,17.929656786924397,Held-out species,Scaled ridge
+5,hemlock_2,T.canadensis,10,526.9616936,1642.3094951721714,1115.3478015721714,Held-out species,Scaled ridge
+6,hemlock_3,T.canadensis,10,404.8252493,1128.6381113671537,723.8128620671537,Held-out species,Scaled ridge
+7,hemlock_4,T.canadensis,10,933.9854066,3049.6002683525617,2115.6148617525614,Held-out species,Scaled ridge
+8,hemlock_5,T.canadensis,10,724.0162267,1106.6125866814673,382.59635998146734,Held-out species,Scaled ridge
+9,hemlock_6,T.canadensis,10,1949.371686,1393.8114373800372,555.5602486199627,Held-out species,Scaled ridge
+10,hickory_1,C.ovata,3,1744.871332,923.3968244804829,821.474507519517,Held-out species,Scaled ridge
+11,hickory_3,C.ovata,3,342.506572,1833.2554264080422,1490.7488544080422,Held-out species,Scaled ridge
+12,hickory_4,C.ovata,3,176.0954304,414.34855424343937,238.25312384343937,Held-out species,Scaled ridge
+13,hickory_5,C.ovata,3,187.9259294,680.1073867830396,492.18145738303963,Held-out species,Scaled ridge
+14,hickory_6,C.ovata,3,149.1345116,925.3394251538924,776.2049135538924,Held-out species,Scaled ridge
+15,juniper_1,J.chinensis,5,211.8728845,1359.183438020133,1147.310553520133,Held-out species,Scaled ridge
+16,juniper_2,J.chinensis,5,664.7083904,980.782805634018,316.07441523401803,Held-out species,Scaled ridge
+17,juniper_3,J.chinensis,5,192.1609829,1607.5621571883235,1415.4011742883235,Held-out species,Scaled ridge
+18,juniper_4,J.chinensis,5,302.2361451,1577.3542114726288,1275.1180663726288,Held-out species,Scaled ridge
+19,juniper_5,J.chinensis,5,1140.904805,1604.3544818018574,463.44967680185755,Held-out species,Scaled ridge
+20,juniper_6,J.chinensis,5,4780.757465,795.3532047984909,3985.404260201509,Held-out species,Scaled ridge
+21,larch_1,L.gmelinii,6,8383.93922,916.7264724921073,7467.212747507893,Held-out species,Scaled ridge
+22,larch_2,L.gmelinii,6,1285.197669,985.5721120643067,299.6255569356932,Held-out species,Scaled ridge
+23,larch_3,L.gmelinii,6,1104.762242,1128.020166801019,23.257924801019044,Held-out species,Scaled ridge
+24,larch_4,L.gmelinii,6,5623.393062,842.8975908814775,4780.495471118523,Held-out species,Scaled ridge
+25,larch_5,L.gmelinii,6,4171.487318,757.7559288894332,3413.7313891105673,Held-out species,Scaled ridge
+26,larch_6,L.gmelinii,6,2373.806313,424.0509858673161,1949.755327132684,Held-out species,Scaled ridge
+27,maple_1,A.saccharum,1,83.11979715,502.50872538907447,419.38892823907446,Held-out species,Scaled ridge
+28,maple_2,A.saccharum,1,378.6153045,660.5759237251788,281.9606192251788,Held-out species,Scaled ridge
+29,maple_4,A.saccharum,1,469.3986257,1084.8891549145087,615.4905292145087,Held-out species,Scaled ridge
+30,maple_5,A.saccharum,1,2177.012101,787.6011441178982,1389.4109568821016,Held-out species,Scaled ridge
+31,maple_6,A.saccharum,1,1418.018523,1143.1669843481284,274.8515386518716,Held-out species,Scaled ridge
+32,pawpaw_1,A.triloba,2,224.0891879,1964.4197266524368,1740.3305387524367,Held-out species,Scaled ridge
+33,pawpaw_3,A.triloba,2,156.9467989,1961.8963131246019,1804.949514224602,Held-out species,Scaled ridge
+34,pawpaw_5,A.triloba,2,510.4134581,1618.6752607315877,1108.2618026315877,Held-out species,Scaled ridge
+35,pawpaw_6,A.triloba,2,1520.099738,1854.313093787442,334.2133557874422,Held-out species,Scaled ridge
+36,s. cypress_1,C.pisifera,4,828.9572577,1208.3109414616013,379.35368376160125,Held-out species,Scaled ridge
+37,s. cypress_2,C.pisifera,4,344.9492485,1403.28708650327,1058.33783800327,Held-out species,Scaled ridge
+38,s. cypress_3,C.pisifera,4,261.6391889,1177.884057498547,916.244868598547,Held-out species,Scaled ridge
+39,s. cypress_4,C.pisifera,4,302.6257719,1130.054262105819,827.4284902058189,Held-out species,Scaled ridge
+40,s. cypress_5,C.pisifera,4,1893.142743,1251.9835351418146,641.1592078581855,Held-out species,Scaled ridge
+41,s. cypress_6,C.pisifera,4,1549.659852,735.5825545909458,814.0772974090542,Held-out species,Scaled ridge
+42,s. cypress_7,C.pisifera,4,86.80880934,925.0934649201253,838.2846555801252,Held-out species,Scaled ridge
+43,spruce_1,P.abies,7,1760.368102,1472.2675398723695,288.1005621276304,Held-out species,Scaled ridge
+44,spruce_2,P.abies,7,2196.343273,1494.9706718433983,701.3726011566016,Held-out species,Scaled ridge
+45,spruce_3,P.abies,7,1531.789049,1272.9085169833504,258.88053201664957,Held-out species,Scaled ridge
+46,spruce_4,P.abies,7,664.3085459,1261.6258297024315,597.3172838024315,Held-out species,Scaled ridge
+47,spruce_5,P.abies,7,1254.78918,1687.7073765682526,432.9181965682526,Held-out species,Scaled ridge
+48,spruce_6,P.abies,7,1738.857023,1408.5981728658273,330.2588501341727,Held-out species,Scaled ridge
+49,swo_1,Q.bicolor,9,1337.567471,940.0473715128677,397.52009948713237,Held-out species,Scaled ridge
+50,swo_2,Q.bicolor,9,146.160911,541.4250436527389,395.26413265273885,Held-out species,Scaled ridge
+51,swo_5,Q.bicolor,9,1429.538218,1247.5324724420693,182.0057455579306,Held-out species,Scaled ridge
+52,swo_6,Q.bicolor,9,664.1204583,1433.1129891906935,768.9925308906935,Held-out species,Scaled ridge
+53,swo_7,Q.bicolor,9,565.8434865,787.3554286264326,221.5119421264326,Held-out species,Scaled ridge
+54,swo_8,Q.bicolor,9,255.8660157,631.6603196256162,375.79430392561625,Held-out species,Scaled ridge
+55,sycamore_4,P.occidentalis,8,1459.509712,1359.8147508598238,99.69496114017625,Held-out species,Scaled ridge
+56,sycamore_5,P.occidentalis,8,2530.760054,1287.136483523708,1243.623570476292,Held-out species,Scaled ridge
+57,sycamore_6,P.occidentalis,8,571.8889252,1260.587514351271,688.698589151271,Held-out species,Scaled ridge
+58,sycamore_804,P.occidentalis,8,263.1136997,1315.8716760322643,1052.7579763322642,Held-out species,Scaled ridge
+59,sycamore_811,P.occidentalis,8,1129.311367,1036.016774257783,93.29459274221699,Held-out species,Scaled ridge

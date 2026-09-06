@@ -1,0 +1,61 @@
+source_row_index,tree_ID,species,myco,phylo,retained_for_pca
+0,b. cypress_1,T.distichum,AM,Gymnosperm,True
+1,b. cypress_2,T.distichum,AM,Gymnosperm,True
+2,b. cypress_3,T.distichum,AM,Gymnosperm,True
+3,b. cypress_4,T.distichum,AM,Gymnosperm,True
+4,hemlock_1,T.canadensis,EcM,Gymnosperm,True
+5,hemlock_2,T.canadensis,EcM,Gymnosperm,True
+6,hemlock_3,T.canadensis,EcM,Gymnosperm,True
+7,hemlock_4,T.canadensis,EcM,Gymnosperm,True
+8,hemlock_5,T.canadensis,EcM,Gymnosperm,True
+9,hemlock_6,T.canadensis,EcM,Gymnosperm,True
+10,hickory_1,C.ovata,EcM,Angiosperm,True
+11,hickory_3,C.ovata,EcM,Angiosperm,True
+12,hickory_4,C.ovata,EcM,Angiosperm,True
+13,hickory_5,C.ovata,EcM,Angiosperm,True
+14,hickory_6,C.ovata,EcM,Angiosperm,True
+15,juniper_1,J.chinensis,AM,Gymnosperm,True
+16,juniper_2,J.chinensis,AM,Gymnosperm,True
+17,juniper_3,J.chinensis,AM,Gymnosperm,True
+18,juniper_4,J.chinensis,AM,Gymnosperm,True
+19,juniper_5,J.chinensis,AM,Gymnosperm,True
+20,juniper_6,J.chinensis,AM,Gymnosperm,True
+21,larch_1,L.gmelinii,EcM,Gymnosperm,True
+22,larch_2,L.gmelinii,EcM,Gymnosperm,True
+23,larch_3,L.gmelinii,EcM,Gymnosperm,True
+24,larch_4,L.gmelinii,EcM,Gymnosperm,True
+25,larch_5,L.gmelinii,EcM,Gymnosperm,True
+26,larch_6,L.gmelinii,EcM,Gymnosperm,True
+27,maple_1,A.saccharum,AM,Angiosperm,True
+28,maple_2,A.saccharum,AM,Angiosperm,True
+29,maple_4,A.saccharum,AM,Angiosperm,True
+30,maple_5,A.saccharum,AM,Angiosperm,True
+31,maple_6,A.saccharum,AM,Angiosperm,True
+32,pawpaw_1,A.triloba,AM,Angiosperm,True
+33,pawpaw_3,A.triloba,AM,Angiosperm,True
+34,pawpaw_5,A.triloba,AM,Angiosperm,True
+35,pawpaw_6,A.triloba,AM,Angiosperm,True
+36,s. cypress_1,C.pisifera,AM,Gymnosperm,True
+37,s. cypress_2,C.pisifera,AM,Gymnosperm,True
+38,s. cypress_3,C.pisifera,AM,Gymnosperm,True
+39,s. cypress_4,C.pisifera,AM,Gymnosperm,True
+40,s. cypress_5,C.pisifera,AM,Gymnosperm,True
+41,s. cypress_6,C.pisifera,AM,Gymnosperm,True
+42,s. cypress_7,C.pisifera,AM,Gymnosperm,True
+43,spruce_1,P.abies,EcM,Gymnosperm,True
+44,spruce_2,P.abies,EcM,Gymnosperm,True
+45,spruce_3,P.abies,EcM,Gymnosperm,True
+46,spruce_4,P.abies,EcM,Gymnosperm,True
+47,spruce_5,P.abies,EcM,Gymnosperm,True
+48,spruce_6,P.abies,EcM,Gymnosperm,True
+49,swo_1,Q.bicolor,EcM,Angiosperm,True
+50,swo_2,Q.bicolor,EcM,Angiosperm,True
+51,swo_5,Q.bicolor,EcM,Angiosperm,True
+52,swo_6,Q.bicolor,EcM,Angiosperm,True
+53,swo_7,Q.bicolor,EcM,Angiosperm,True
+54,swo_8,Q.bicolor,EcM,Angiosperm,True
+55,sycamore_4,P.occidentalis,AM,Angiosperm,True
+56,sycamore_5,P.occidentalis,AM,Angiosperm,True
+57,sycamore_6,P.occidentalis,AM,Angiosperm,True
+58,sycamore_804,P.occidentalis,AM,Angiosperm,True
+59,sycamore_811,P.occidentalis,AM,Angiosperm,True

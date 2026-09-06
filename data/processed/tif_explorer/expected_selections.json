@@ -1,0 +1,30 @@
+[
+  {
+    "year": 2023,
+    "measure": "expenses",
+    "district_id": 52,
+    "value": 46120349,
+    "rank": 1
+  },
+  {
+    "year": 2023,
+    "measure": "fund_balance_end",
+    "district_id": 52,
+    "value": 293029705,
+    "rank": 1
+  },
+  {
+    "year": 2010,
+    "measure": "expenses",
+    "district_id": 186,
+    "value": null,
+    "rank": null
+  },
+  {
+    "year": 2012,
+    "measure": "property_tax_extraction",
+    "district_id": 1,
+    "value": 0,
+    "rank": 144
+  }
+]

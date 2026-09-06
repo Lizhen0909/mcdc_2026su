@@ -1,0 +1,34 @@
+{
+  "dataset_doi": "https://doi.org/10.5061/dryad.vmcvdnd78",
+  "source_sha256": "f7ba355a9480893e9d25f83cf7ef209e4cfba1547419dcef1931187a4b313df4",
+  "source_release": "2026-05-06",
+  "features": [
+    "diameter",
+    "srl",
+    "rtd",
+    "sra",
+    "%N",
+    "branching_intensity"
+  ],
+  "target": "er_mass",
+  "groups": "species",
+  "target_scale": "Original archived values, no transform or clipping",
+  "n_observations": 60,
+  "n_species": 11,
+  "random_seed": 42,
+  "random_folds": 11,
+  "grouped_design": "Leave one species out",
+  "ridge_alpha": 10.0,
+  "ridge_solver": "svd",
+  "tuning": "None; fixed teaching setting",
+  "scaling": "StandardScaler fitted inside each training fold",
+  "baseline": "Training median",
+  "python": "3.12.14",
+  "packages": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "scikit-learn": "1.9.0",
+    "matplotlib": "3.11.1",
+    "openpyxl": "3.1.5"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "dataset_doi": "https://doi.org/10.5061/dryad.vmcvdnd78",
+  "download_url": "https://datadryad.org/downloads/file_stream/4747058",
+  "source_release": "2026-05-06",
+  "dryad_version": 3,
+  "source_sha256": "f7ba355a9480893e9d25f83cf7ef209e4cfba1547419dcef1931187a4b313df4",
+  "license": "CC0-1.0",
+  "worksheet": "final_exudate_data_stat",
+  "features": [
+    "diameter",
+    "srl",
+    "rtd",
+    "sra",
+    "%N",
+    "branching_intensity"
+  ],
+  "missing_data_rule": "Complete finite observations across six selected traits",
+  "feature_transform": "StandardScaler, no logarithmic transformation",
+  "n_source_rows": 60,
+  "n_retained_rows": 60,
+  "pca_solver": "full",
+  "n_components_for_80_percent": 2,
+  "python": "3.12.14",
+  "packages": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "scikit-learn": "1.9.0",
+    "matplotlib": "3.11.1",
+    "openpyxl": "3.1.5"
+  }
+}

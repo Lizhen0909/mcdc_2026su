@@ -1,0 +1,32 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/files/4747058"
+    },
+    "stash:dataset": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vmcvdnd78"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/440749"
+    },
+    "stash:files": {
+      "href": "/api/v2/versions/440749/files"
+    },
+    "stash:download": {
+      "href": "/api/v2/files/4747058/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "path": "final_exudate_data_submission.xlsx",
+  "size": 23521,
+  "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "status": "copied",
+  "digest": "f7ba355a9480893e9d25f83cf7ef209e4cfba1547419dcef1931187a4b313df4",
+  "digestType": "sha-256"
+}

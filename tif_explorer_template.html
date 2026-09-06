@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chicago TIF data explorer · MCDC lesson</title>
+<style>
+*{box-sizing:border-box}body{font:16px/1.55 system-ui,sans-serif;color:#21362f;background:white;margin:0}main{max-width:1150px;margin:auto;padding:32px 24px}h1{font-size:36px;line-height:1.15;margin:8px 0 16px}h2{font-size:22px;margin:26px 0 8px}.eyebrow{color:#52645c;font-size:13px;letter-spacing:.1em}p{max-width:88ch}label{display:flex;flex-direction:column;gap:6px;font-weight:600}select{font:inherit;border:1px solid #9aaa9f;border-radius:5px;background:white;padding:9px;min-width:0}.controls{display:grid;grid-template-columns:130px 1fr 1fr;gap:18px;margin:24px 0}#status{padding:14px 0;font-size:18px}#quality{color:#805312}.chart{width:100%;min-height:390px}table{border-collapse:collapse;width:100%;font-size:14px}th,td{padding:8px 12px;text-align:left;border-bottom:1px solid #dce3de}td:last-child,th:last-child{text-align:right}.muted{color:#59675f;font-size:14px}a{color:#236852}summary{cursor:pointer;font-weight:600}select:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #bc741b;outline-offset:3px}@media(max-width:700px){.controls{grid-template-columns:1fr}main{padding:24px 14px}h1{font-size:29px}}
+</style><script>__PLOTLY_JS__</script></head>
+<body><main>
+<div class="eyebrow">MCDC · CIVICLAB PROJECT DATA · 2010–2023 SNAPSHOT</div>
+<h1>Explore Chicago TIF finances</h1>
+<p>Compare districts within one reporting year, then examine one district over time. These are project-parsed report values in nominal dollars, without inflation adjustment. The snapshot ends in 2023.</p>
+<div class="controls">
+<label>Reporting year<select id="year"></select></label>
+<label>Measure<select id="metric"></select></label>
+<label>District<select id="district"></select></label>
+</div>
+<p id="definition"></p><p id="status" aria-live="polite"></p><p id="quality" aria-live="polite"></p>
+<h2 id="rank-title">District comparison</h2><p id="coverage" class="muted"></p>
+<div id="ranking" class="chart" role="img" aria-label="Ten largest recorded values for the selected year and measure"></div>
+<details><summary>View comparison values as a table</summary><table><thead><tr><th>Rank</th><th>District</th><th>Recorded dollars</th></tr></thead><tbody id="rank-table"></tbody></table></details>
+<h2 id="history-title">District history</h2><p class="muted">Missing district-years remain gaps. A dashed line marks the selected year. Chart axes adjust when the measure or district changes.</p>
+<div id="history" class="chart" role="img" aria-label="Selected district's recorded values over time"></div>
+<details><summary>View district history as a table</summary><table><thead><tr><th>Year</th><th>Recorded dollars</th></tr></thead><tbody id="history-table"></tbody></table></details>
+<h2>How to read these figures</h2>
+<p>Annual tax extraction and spending describe flows during a year. Ending balance is a snapshot, and cumulative extraction includes earlier years. Adding balances or cumulative values across years double-counts time. A larger balance does not establish available, uncommitted funds, and a larger amount does not measure community benefit.</p>
+<p>The checks identify negative stored values and differences between annual extraction and the change in cumulative extraction. These are prompts to inspect reports, not automatic corrections. Unflagged values have not all been independently verified. Different year coverage may reflect reporting, district lifespans, or missing records.</p>
+<p class="muted">Source: <a href="__SOURCE_URL__">CivicLab–MCDC TIF repository snapshot</a>. Project figures were extracted from public annual reports. Use the <a href="https://www.chicago.gov/city/en/depts/dcd/supp_info/tif-district-annual-reports-2004-present.html">original reports</a> to verify a claim. Teaching explorer; no live updates.</p>
+</main>
+<script>
+// The notebook inserts validated records and shared metric definitions here.
+const rows=__DATA_JSON__;
+const metrics=__METRICS_JSON__;
+const years=[...new Set(rows.map(r=>r.tif_year))].sort((a,b)=>a-b);
+const districts=[...new Map(rows.map(r=>[r.tif_number,r.tif_name])).entries()].sort((a,b)=>a[1].localeCompare(b[1]));
+const byId=id=>document.getElementById(id);
+const money=n=>n==null?'Not available':new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n);
+function addOption(id,value,text){const o=document.createElement('option');o.value=value;o.textContent=text;byId(id).appendChild(o);}
+years.forEach(y=>addOption('year',y,y));
+Object.entries(metrics).forEach(([k,v])=>addOption('metric',k,v.label));
+districts.forEach(([id,name])=>addOption('district',id,`${name} (#${id})`));
+byId('year').value=String(Math.max(...years));byId('metric').value='expenses';byId('district').value='52';
+function fillTable(id,records){const body=byId(id);body.replaceChildren();records.forEach(values=>{const tr=document.createElement('tr');values.forEach(v=>{const td=document.createElement('td');td.textContent=v;tr.appendChild(td)});body.appendChild(tr)});}
+function update(){
+ const year=Number(byId('year').value),metric=byId('metric').value,id=Number(byId('district').value),definition=metrics[metric];
+ const available=rows.filter(r=>r.tif_year===year&&r[metric]!=null).sort((a,b)=>b[metric]-a[metric]||a.tif_number-b.tif_number);
+ const selected=available.find(r=>r.tif_number===id),name=districts.find(d=>d[0]===id)[1];
+ const rank=value=>1+available.filter(r=>r[metric]>value).length;
+ const top=available.slice(0,10);
+ byId('definition').textContent=definition.description;
+ byId('status').textContent=selected?`${name} · ${year}: ${money(selected[metric])}. Rank ${rank(selected[metric])} of ${available.length} recorded districts; ties share rank.`:`${name} has no recorded value for ${year} in this snapshot. Missing does not mean zero.`;
+ byId('quality').textContent=selected&&selected.review_note?`Source review note: ${selected.review_note}`:'Project-parsed values: check original reports before making a substantive claim.';
+ byId('rank-title').textContent=`${definition.label} · ${year}`;
+ byId('coverage').textContent=`Showing the 10 largest of ${available.length} recorded district values. Ties at the display cutoff are ordered by district ID. The selected district is highlighted if shown.`;
+ const bars=[...top].reverse();
+ const common={paper_bgcolor:'white',plot_bgcolor:'white',font:{family:'system-ui, sans-serif',color:'#21362f'},showlegend:false};
+ Plotly.react('ranking',[{type:'bar',orientation:'h',x:bars.map(r=>r[metric]),y:bars.map(r=>r.tif_name),marker:{color:bars.map(r=>r.tif_number===id?'#b47127':'#327b65')},hovertemplate:'%{y}<br>$%{x:,.0f}<extra></extra>'}],{...common,height:440,margin:{l:10,r:30,t:20,b:55},yaxis:{automargin:true},xaxis:{title:{text:'Nominal dollars'},tickprefix:'$',rangemode:'tozero'}},{responsive:true,displayModeBar:false});
+ fillTable('rank-table',top.map(r=>[rank(r[metric]),r.tif_name,money(r[metric])]));
+ const history=years.map(y=>rows.find(r=>r.tif_number===id&&r.tif_year===y));
+ const values=history.map(r=>r?r[metric]:null);
+ byId('history-title').textContent=`${name} · ${definition.label.toLowerCase()}`;
+ Plotly.react('history',[{type:'scatter',mode:'lines+markers',x:years,y:values,connectgaps:false,line:{color:'#327b65'},hovertemplate:'%{x}<br>$%{y:,.0f}<extra></extra>'}],{...common,height:380,margin:{l:75,r:25,t:15,b:55},xaxis:{title:{text:'Reporting year'},dtick:2},yaxis:{title:{text:'Nominal dollars'},tickprefix:'$',rangemode:'tozero'},shapes:[{type:'line',xref:'x',yref:'paper',x0:year,x1:year,y0:0,y1:1,line:{color:'#b47127',dash:'dot',width:2}}]},{responsive:true,displayModeBar:false});
+ fillTable('history-table',years.map((y,i)=>[y,money(values[i])]));
+}
+['year','metric','district'].forEach(id=>byId(id).addEventListener('change',update));update();
+</script></body></html>

@@ -1,0 +1,87 @@
+tif_number,tif_year,tif_name,expenses,property_tax_extraction,fund_balance_end,cumulative_property_tax_extraction,tax_difference_flag,negative_value_flag,review_note
+1,2012,35th/Halsted,2502831,0,23779182,36235145,True,False,Annual tax extraction differs from the change in cumulative extraction
+2,2012,41st/King,5833,0,906489,0,True,False,Annual tax extraction differs from the change in cumulative extraction
+2,2013,41st/King,134929,156175,929691,2421920,True,False,Annual tax extraction differs from the change in cumulative extraction
+15,2011,Chatham-Ridge,2048834,580286,-4086,25959032,False,True,Negative stored value: inspect original report
+18,2011,Division/North Branch,9392,0,487687,4037965,True,False,Annual tax extraction differs from the change in cumulative extraction
+28,2014,Lincoln/Belmont/Ashland,5252888,1008216,-2761019,18046045,False,True,Negative stored value: inspect original report
+29,2012,Michigan/Cermak,2243910,0,0,8556565,True,False,Annual tax extraction differs from the change in cumulative extraction
+29,2015,Michigan/Cermak,382670,-253084,6134313,10956845,False,True,Negative stored value: inspect original report
+32,2013,Near West,10226413,10740747,20738245,122364090,True,False,Annual tax extraction differs from the change in cumulative extraction
+35,2016,North/Cicero,41481,1476628,3991339,16038445,True,False,Annual tax extraction differs from the change in cumulative extraction
+36,2012,Read/Dunning,1512116,0,10900280,36544480,True,False,Annual tax extraction differs from the change in cumulative extraction
+40,2012,Roosevelt/Homan,186814,0,8195531,11120216,True,False,Annual tax extraction differs from the change in cumulative extraction
+42,2016,Sanitary and Ship Canal,14111,484166,1007571,14592128,True,False,Annual tax extraction differs from the change in cumulative extraction
+42,2017,Sanitary and Ship Canal,13976,574606,1577509,15167334,True,False,Annual tax extraction differs from the change in cumulative extraction
+43,2012,Stockyards Annex,2816921,4219786,8288141,19368474,True,False,Annual tax extraction differs from the change in cumulative extraction
+56,2012,79th Street Corridor,879229,0,5550913,7985953,True,False,Annual tax extraction differs from the change in cumulative extraction
+66,2012,Greater Southwest Industrial (East),321553,0,0,7467902,True,False,Annual tax extraction differs from the change in cumulative extraction
+69,2011,Pulaski Industrial Corridor,924312,3377550,13164951,25556541,True,False,Annual tax extraction differs from the change in cumulative extraction
+74,2011,Clark/Ridge,519429,2669829,9959343,45482620,True,False,Annual tax extraction differs from the change in cumulative extraction
+74,2012,Clark/Ridge,2461002,2035241,8872079,17517861,True,False,Annual tax extraction differs from the change in cumulative extraction
+87,2013,Fullerton/Milwaukee,3970265,5375724,24575181,57623150,True,False,Annual tax extraction differs from the change in cumulative extraction
+87,2016,Fullerton/Milwaukee,5137347,7414569,17280319,76560348,True,False,Annual tax extraction differs from the change in cumulative extraction
+88,2013,Lawrence/Kedzie,6362093,5766307,22044393,67816620,True,False,Annual tax extraction differs from the change in cumulative extraction
+92,2013,Greater Southwest Industrial (West),138206,-190729,8339476,11874320,False,True,Negative stored value: inspect original report
+98,2016,63rd/Pulaski,121437,1522973,4423648,25936124,True,False,Annual tax extraction differs from the change in cumulative extraction
+98,2017,63rd/Pulaski,81274,1402877,3976311,27339601,True,False,Annual tax extraction differs from the change in cumulative extraction
+112,2012,79th/Southwest Highway,489754,0,6321196,10968922,True,False,Annual tax extraction differs from the change in cumulative extraction
+114,2012,119th/Halsted,677586,0,3463124,5250161,True,False,Annual tax extraction differs from the change in cumulative extraction
+127,2016,87th/Cottage Grove,754714,1422675,3211092,22117355,True,False,Annual tax extraction differs from the change in cumulative extraction
+127,2017,87th/Cottage Grove,626291,1553795,2319041,24271150,True,False,Annual tax extraction differs from the change in cumulative extraction
+128,2013,Commercial Avenue,292349,0,11210265,14624237,True,False,Annual tax extraction differs from the change in cumulative extraction
+135,2013,Pratt/Ridge Industrial Park Conservation Area,4676,-63,670180,1602443,False,True,Negative stored value: inspect original report
+144,2013,Harrison/Central,1096410,-53870,1066219,3910017,False,True,Negative stored value: inspect original report
+144,2014,Harrison/Central,2032004,-16428,841222,3893589,False,True,Negative stored value: inspect original report
+144,2015,Harrison/Central,1325590,-6953,791828,3886636,False,True,Negative stored value: inspect original report
+148,2013,Harlem Industrial Park Conservation Area,111656,-5968,554943,978265,False,True,Negative stored value: inspect original report
+148,2014,Harlem Industrial Park Conservation Area,116306,-2085,437996,976180,False,True,Negative stored value: inspect original report
+148,2015,Harlem Industrial Park Conservation Area,2400,-1120,435688,975060,False,True,Negative stored value: inspect original report
+148,2016,Harlem Industrial Park Conservation Area,5593,-3086,426844,971974,False,True,Negative stored value: inspect original report
+148,2017,Harlem Industrial Park Conservation Area,14216,-706,418731,971268,False,True,Negative stored value: inspect original report
+151,2015,Armitage/Pulaski,103104,-6964,988021,1580456,False,True,Negative stored value: inspect original report
+152,2013,Little Village Industrial Corridor,117483,-17392,1419549,2102194,False,True,Negative stored value: inspect original report
+152,2014,Little Village Industrial Corridor,9543,-13126,1401257,2089068,False,True,Negative stored value: inspect original report
+152,2015,Little Village Industrial Corridor,149259,-5978,1249971,2083090,False,True,Negative stored value: inspect original report
+152,2016,Little Village Industrial Corridor,13030,-3265,1233050,2079825,False,True,Negative stored value: inspect original report
+152,2017,Little Village Industrial Corridor,6007,-395,1246704,2079430,False,True,Negative stored value: inspect original report
+154,2011,Pershing/King,1414438,78723,-52391,412904,False,True,Negative stored value: inspect original report
+154,2013,Pershing/King,187186,-732,199573,447605,False,True,Negative stored value: inspect original report
+154,2014,Pershing/King,21459,1843,176859,445762,True,False,Annual tax extraction differs from the change in cumulative extraction
+154,2015,Pershing/King,3180,-98,174066,445664,False,True,Negative stored value: inspect original report
+157,2013,Hollywood/Sheridan,1885195,-9142,3531593,2529011,False,True,Negative stored value: inspect original report
+157,2015,Hollywood/Sheridan,1776054,-11601,1957191,2521670,False,True,Negative stored value: inspect original report
+160,2013,Kennedy/Kimball,106770,-523,615650,960021,False,True,Negative stored value: inspect original report
+160,2014,Kennedy/Kimball,287155,-4383,325883,955638,False,True,Negative stored value: inspect original report
+160,2016,Kennedy/Kimball,15629,-861,380844,957212,False,True,Negative stored value: inspect original report
+161,2014,Ogden/Pulaski,136098,-80784,4525376,7749780,False,True,Negative stored value: inspect original report
+161,2015,Ogden/Pulaski,89303,-61427,4387298,7688353,False,True,Negative stored value: inspect original report
+161,2016,Ogden/Pulaski,1002589,-18447,3363722,7669906,False,True,Negative stored value: inspect original report
+161,2017,Ogden/Pulaski,273862,-27612,4127976,7642294,False,True,Negative stored value: inspect original report
+162,2013,Kostner Avenue,1197,0,-2331,4337,False,True,Negative stored value: inspect original report
+163,2014,Archer/Western,147777,-6736,690382,1143364,False,True,Negative stored value: inspect original report
+163,2015,Archer/Western,13243,-16546,662515,1126818,False,True,Negative stored value: inspect original report
+164,2013,Little Village East,4351,-4295,452958,467436,False,True,Negative stored value: inspect original report
+164,2014,Little Village East,18627,-2272,433482,465164,False,True,Negative stored value: inspect original report
+164,2015,Little Village East,63654,-214,370824,464950,False,True,Negative stored value: inspect original report
+164,2017,Little Village East,6254,-92,361738,464978,False,True,Negative stored value: inspect original report
+164,2018,Little Village East,3408,-368,359866,464610,False,True,Negative stored value: inspect original report
+165,2013,Irving Park/Elston,32372,-7775,748278,952937,False,True,Negative stored value: inspect original report
+165,2014,Irving Park/Elston,298915,-3566,447919,949371,False,True,Negative stored value: inspect original report
+165,2015,Irving Park/Elston,5582,-11923,431539,937448,False,True,Negative stored value: inspect original report
+165,2016,Irving Park/Elston,2589,-496,455713,936952,False,True,Negative stored value: inspect original report
+165,2017,Irving Park/Elston,2588,-1864,458821,935088,False,True,Negative stored value: inspect original report
+165,2018,Irving Park/Elston,5212,-1287,454622,933801,False,True,Negative stored value: inspect original report
+165,2019,Irving Park/Elston,107999,-250,0,933551,False,True,Negative stored value: inspect original report
+167,2013,Avondale,44449,-13488,1165661,522653,False,True,Negative stored value: inspect original report
+167,2014,Avondale,196688,-3442,968925,519211,False,True,Negative stored value: inspect original report
+167,2015,Avondale,161173,-8491,801754,510720,False,True,Negative stored value: inspect original report
+171,2013,West Woodlawn,411205,-2398,940713,103575,False,True,Negative stored value: inspect original report
+171,2014,West Woodlawn,383375,-1083,808859,102492,False,True,Negative stored value: inspect original report
+171,2015,West Woodlawn,136679,-965,673250,101527,False,True,Negative stored value: inspect original report
+171,2016,West Woodlawn,187959,-4276,483021,97251,False,True,Negative stored value: inspect original report
+171,2018,West Woodlawn,16470,-911,286258,96451,False,True,Negative stored value: inspect original report
+171,2020,West Woodlawn,20654,-41,999940,96730,False,True,Negative stored value: inspect original report
+177,2020,Foster/California,1125441,-12947,691907,694400,False,True,Negative stored value: inspect original report
+177,2021,Foster/California,2909,-139773,549177,554627,False,True,Negative stored value: inspect original report
+177,2022,Foster/California,11096,-12639,499415,541988,False,True,Negative stored value: inspect original report

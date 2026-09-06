@@ -1,0 +1,22 @@
+{
+  "expenses": {
+    "label": "Annual spending",
+    "kind": "annual flow",
+    "description": "Recorded expenditures during the selected reporting year. Nominal dollars."
+  },
+  "property_tax_extraction": {
+    "label": "Annual tax extraction",
+    "kind": "annual flow",
+    "description": "Recorded property-tax increment for the selected reporting year. Nominal dollars."
+  },
+  "fund_balance_end": {
+    "label": "Ending fund balance",
+    "kind": "snapshot",
+    "description": "Recorded balance at year-end. It does not establish uncommitted funds."
+  },
+  "cumulative_property_tax_extraction": {
+    "label": "Cumulative tax extraction",
+    "kind": "cumulative",
+    "description": "Recorded tax extraction accumulated through the selected year, including earlier years. Do not sum it across years."
+  }
+}
